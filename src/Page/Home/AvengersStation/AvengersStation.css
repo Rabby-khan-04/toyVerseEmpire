@@ -1,0 +1,7 @@
+/* square buttons */
+.rec.rec-arrow {
+  background-color: rgba(250, 221, 75, 0.3);
+}
+.rec.rec-arrow:hover {
+  background-color: #fadd4b;
+}

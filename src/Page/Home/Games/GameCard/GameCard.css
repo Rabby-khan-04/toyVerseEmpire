@@ -1,0 +1,27 @@
+.details__box {
+  position: relative;
+}
+.details__box::before,
+.details__box::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 20;
+}
+
+.details__box::before {
+  bottom: 0;
+  top: auto;
+  left: 0;
+  border-right: 12px solid transparent;
+  width: 27%;
+  border-top: 12px solid #1d1e1f;
+}
+.details__box::after {
+  right: 0;
+  border-left: 12px solid transparent;
+  width: 27%;
+  bottom: 0;
+  top: auto;
+  border-top: 12px solid #1d1e1f;
+}

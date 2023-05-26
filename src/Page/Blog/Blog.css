@@ -1,0 +1,6 @@
+.blog__table,
+.blog__table td,
+.blog__table th,
+.blog__table tr {
+  @apply border border-primary p-3;
+}

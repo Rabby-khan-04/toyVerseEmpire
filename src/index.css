@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply max-w-7xl mx-auto px-5 xl:px-0;
+}
+
+.data__table thead {
+  @apply bg-[#fadd4b94];
+}
+.data__table th,
+.data__table td {
+  @apply p-4 text-center font-orbitron;
+}
+
+.data__table tbody tr:nth-child(even) {
+  @apply bg-accent;
+}
+
+.footer__link {
+  @apply hover:underline hover:text-primary transition-all duration-300;
+}
